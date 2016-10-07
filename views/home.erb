@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home.erb</title>
+</head>
+<body>
+	<h1>sup bitches!!</h1>
+
+	<a href="localhost:4567/photos">photos</a>
+
+	<% 10.times do %>
+	  <strong>
+	    THE PLANET IS 'SPLODIN'!
+	  </strong>
+	<% end %>
+	<% @names.each do |names|%>
+		<li><%= names %></li>
+	<%end%>
+
+</body>
+</html>

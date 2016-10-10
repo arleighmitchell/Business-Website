@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+
 	<title>home.erb</title>
+
 </head>
+
 <body>
-	<h1>sup bitches!!</h1>
 
-	<a href="/photos">photos</a>
+	<h1>Good Golly Miss Molly</h1>
 
-	<% 10.times do %>
-	  <strong>
-	    THE PLANET IS 'SPLODIN'!
-	  </strong>
-	<% end %>
-	<% @names.each do |names|%>
-		<li><%= names %></li>
-	<%end%>
+	<section>
 
+		<% @family.each do |family|%>
+			<ul><%= family %></ul>
+		<%end%>
+
+	</section>
 </body>
+
 </html>

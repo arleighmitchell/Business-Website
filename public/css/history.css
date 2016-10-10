@@ -1,0 +1,13 @@
+.div-one{
+	float: left;
+	margin: 50px 75px 25px 125px;
+	width: 550px;
+	text-indent: 40px;
+}
+
+.img-five{
+	clear: right;
+	width: 350px;
+	height: 600px;
+	margin:15px 50px;
+}

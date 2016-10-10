@@ -1,0 +1,30 @@
+.col-sm-3 {
+	width: 25%;
+	height: 100%
+	margin: 0px;
+	padding: 10px;
+}
+
+.img-one{
+	width: 320px;
+	height: 350px;
+}
+
+.img-two{
+	width: 350px;
+	height: 250px;
+	transform: rotate(90deg);
+	margin-top: 55px;
+}
+
+.img-four{
+	width: 200px;
+	height: 350px;
+}
+
+.img-three{
+	transform: rotate(90deg);
+	width: 350px;
+	height: 250px;
+	margin-top: 55px;
+}

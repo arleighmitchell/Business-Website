@@ -43,3 +43,7 @@ get'/contact-form' do
   "hello"
   erb :contactform
 end
+
+post'/contact-form' do
+  erb :contactform
+end

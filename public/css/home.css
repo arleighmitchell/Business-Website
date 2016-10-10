@@ -5,3 +5,8 @@ h1{
 section{
 	margin: 50px;
 }
+
+video{
+	width:400px;
+	height:650px;
+}

@@ -1,6 +1,9 @@
 html,body{
 	text-align: center;
 	background-color: indianred;
+	background-image: url("../images/six.jpg");
+	background-size: cover;
+	color: white;
 }
 
 .navbar {

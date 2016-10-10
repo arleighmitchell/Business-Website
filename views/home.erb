@@ -12,6 +12,12 @@
 
 	<h1>Good Golly Miss Molly</h1>
 
+	<video controls >
+		<source src="images/molly.ogg" type="video/ogg">
+		<source src="images/molly.mp4" type="video/mp4">
+		<source id="video"  src="images/molly.webm" type="video/webm">	
+	</video>
+	
 	<section>
 
 		<% @family.each do |family|%>
@@ -19,6 +25,10 @@
 		<%end%>
 
 	</section>
+
+
+<script type="text/javascript" src="js/script.js"></script>
+
 </body>
 
 </html>

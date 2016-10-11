@@ -9,25 +9,44 @@
 </head>
 
 <body>
-
-	<h1>Good Golly Miss Molly</h1>
-
-	<video controls >
-		<source src="images/molly.ogg" type="video/ogg">
-		<source src="images/molly.mp4" type="video/mp4">
-		<source id="video"  src="images/molly.webm" type="video/webm">	
-	</video>
+<div class="parallax1">
+	Good Golly Miss Molly
+</div>
+<div class="middle">
+<table>
+	<td>
+		<button id="family">Family</button>
+		<div id="fam-members">
+			<% @family.each do |family|%>
+				<li><%= family %></li>
+			<%end%>
+		</div>
+	</td>
 	
-	<section>
+	<td>
+		<video controls >
+			<source src="images/molly.ogg" type="video/ogg">
+			<source src="images/molly.mp4" type="video/mp4">
+			<source src="images/molly.webm" type="video/webm">	
+		</video>
+	</td>
 
-		<% @family.each do |family|%>
-			<ul><%= family %></ul>
-		<%end%>
+	<td>
+		<button id="squad">Squad</button>
+		<div id="squad-members">
+			<% @squad.each do |squad|%>
+				<li><%= squad %></li>
+			<%end%>
+		</div>
+	</td>
+</table>
+</div>	
 
-	</section>
+<div class="parallax2">
+	
+</div>
 
-
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/home.js"></script>
 
 </body>
 

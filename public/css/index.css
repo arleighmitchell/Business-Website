@@ -1,11 +1,52 @@
 html,body{
 	text-align: center;
-	background-color: indianred;
-	background-image: url("../images/six.jpg");
-	background-size: cover;
+	background-color: pink;
 	color: white;
 }
-
 .navbar {
+	position: fixed;
 	background-color: white;
+	width: 100%;
+}
+.parallax1{
+	background-image: url("../images/seven.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 150px;
+    text-align: center;
+    padding-top: 175px;
+}
+.middle{
+	background-size: 50%;
+    text-align: center;
+    background: transparent;
+}
+.parallax2{
+	background-image: url("../images/eight.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 175px;
+}
+.bottom{
+    text-align: center;
+    height: 800px;
+    background: transparent;
+}
+.parallax3{
+	background-image: url("../images/nine.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 150px;
+    text-align: center;
+    padding-top: 175px;
 }

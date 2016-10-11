@@ -4,6 +4,7 @@ require 'sendgrid-ruby'
 get '/' do
   "home"
   @family = ["Mother: Janie", "Father: Tony", "Brother: Clemens", "Sister: Arleigh"]
+  @squad = ["Catherine", "Bailey", "Antonio", "Andy"]
   erb :home
 end
 

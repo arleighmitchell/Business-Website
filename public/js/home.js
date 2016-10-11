@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	console.log("hey bitches!")
+	
 	$("#fam-members").hide()
 	$("#squad-members").hide()
 	

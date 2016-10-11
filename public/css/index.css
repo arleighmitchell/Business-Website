@@ -1,11 +1,11 @@
 html,body{
 	text-align: center;
-	background-color: pink;
-	color: white;
+	background-image: url("../images/32.jpg");
+	color: darkgrey;
 }
 .navbar {
 	position: fixed;
-	background-color: white;
+	background-image: url("../images/32.jpg");
 	width: 100%;
 }
 .parallax1{
@@ -17,10 +17,11 @@ html,body{
     background-size: cover;
     font-size: 150px;
     text-align: center;
-    padding-top: 175px;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 .middle{
-	background-size: 50%;
+	background-size: 100%;
     text-align: center;
     background: transparent;
 }
@@ -32,11 +33,10 @@ html,body{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    padding-top: 175px;
-}
+ }
 .bottom{
+	background-size: 100%;
     text-align: center;
-    height: 800px;
     background: transparent;
 }
 .parallax3{

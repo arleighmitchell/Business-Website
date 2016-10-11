@@ -6,9 +6,11 @@ $(document).ready(function() {
 	
 	$("#family").click(function() {
 		$("#fam-members").show()
+		$("#family").hide()
 	});
 	
 	$("#squad").click(function() {
 		$("#squad-members").show()
+		$("#squad").hide()
 	});
 });

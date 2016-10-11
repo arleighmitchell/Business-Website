@@ -17,8 +17,9 @@
 	<td>
 		<button id="family">Family</button>
 		<div id="fam-members">
+			<h1>Family</h1>
 			<% @family.each do |family|%>
-				<li><%= family %></li>
+				<ul><%= family %></ul>
 			<%end%>
 		</div>
 	</td>
@@ -34,17 +35,18 @@
 	<td>
 		<button id="squad">Squad</button>
 		<div id="squad-members">
+			<h1> Squad </h1>
 			<% @squad.each do |squad|%>
-				<li><%= squad %></li>
+				<ul><%= squad %></ul>
 			<%end%>
 		</div>
 	</td>
 </table>
 </div>	
 
-<div class="parallax2">
-	
-</div>
+<div class="parallax2"></div>
+
+<div class="parallax3"></div>
 
 <script type="text/javascript" src="js/home.js"></script>
 
